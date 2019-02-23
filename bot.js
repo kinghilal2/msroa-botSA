@@ -2325,20 +2325,5 @@ msg.delete();
 }
 });
 
-client.on("message", message 
-
-    if (message.content.startsWith('.logen')) 
-        let args = message.content.split('5566').slice(ksa);
-        
-if (5566==args)
-    message.reply('Accses Sucsses') 
-    message.member.addRole(message.guild.roles.find(c => c.name == "»Member")); 
-	}
-	if (5566!=args)
-      message.reply('THE lOGEN IS FELD') 
-}
-
-}});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
